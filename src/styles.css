@@ -1,0 +1,25 @@
+html,
+body {
+  margin: 0px;
+  height: 100%;
+  width: 100%;
+}
+#container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+  flex-direction: column;
+}
+.custom-control {
+  display: flex;
+  flex-direction: column;
+}
+
+.custom-control-label::before,
+.custom-file-label,
+.custom-select {
+  transition: background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,
+    box-shadow 0.15s ease-in-out;
+}
